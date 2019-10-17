@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>yourFirstName INF1339 Project 2</title>
+    <style>
+        .output {color: chartreuse;}
+    </style>
+    <script>
+        function hello() {
+            document.getElementById("test_output").innerHTML = "HELLO"
+        }
+    </script>
+<head>
+<body>
+    <h3>API Project A16 Version 0</h3>
+        <!--create a button that will start a function called "hello()"-->
+        <button type="button" onclick="hello()">Click Here</button>
+    
+        <!--a <P> (paragraph) element we will use for output-->
+        <!--it's name is "sentinel" and it is styled by the class "output"-->
+        <p id="test_output" class="output"></p>
+</body>
+</html>   
